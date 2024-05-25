@@ -1,0 +1,111 @@
+.landing{
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    background-image: url('../../assets/bbblurry\ \(2\).svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    .content{
+        width: 100%;
+        position: relative;
+        height: calc(100% - 130px);
+        display: flex;
+        .left_side, .right_side{
+            width: 50%;
+            height: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .left_side{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            padding-left: 8%;
+            box-sizing: border-box;
+            .main_text{
+                font-size: 6em;
+                color: white;
+                font-weight: 800;
+                text-align: start;
+                margin: 0;
+                line-height: 1.1em;
+            }
+            .slog{
+                position: relative;
+                margin-top: 2em;
+                color: white;
+                font-size: 20px;
+                text-align: start;
+            }
+            .media{
+                width: 100%;
+                height: auto;
+                display: flex;
+                position: relative;
+                align-items: center;
+                margin-top: 3em;
+                .get_started{
+                    border: none;
+                    padding:0 40px;
+                    height: 60px;
+                    border-radius: 30px;
+                    font-size: 20px;
+                    font-weight: 500;
+                    letter-spacing: 1px;
+                    background-color: white;
+                }
+                .play{
+                    width: 30px;
+                    position: relative;
+                    height: 30px;
+                    border-radius: 50%;
+                    background-color: white;
+                    border: none;
+                    margin: 0 3em;
+                    z-index: 3;
+                    &::before{
+                        display: block;
+                        content: '';
+                        background-color: rgba(253, 253, 253, 0.527);
+                        width: 45px;
+                        z-index: 2;
+                        border-radius: 50%;
+                        transform: translate(-31%, -18%);
+                        height: 45px;   
+                    }
+                    &::after{
+                        display: block;
+                        content: '';
+                        position: relative;
+                        background-color: rgba(253, 253, 253, 0.253);
+                        width: 60px;
+                        z-index: 2;
+                        border-radius: 50%;
+                        transform: translate(-36.5%, -100%);
+                        height: 60px;   
+                    }
+                }
+                label{
+                    color: white;
+                    font-size: xx-large;
+                    font-weight: 600;
+                    border-bottom: 3px solid white;
+                }
+            }
+        }
+        .right_side{
+            img{
+                width: 90%;
+                height: 90%;
+                object-fit: cover;
+            }
+        }
+    }
+}

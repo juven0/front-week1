@@ -1,0 +1,22 @@
+.blog{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    .header{
+        h2{
+            font-size: 3em;
+            letter-spacing: 1px;
+            font-weight: 600;
+            line-height: 0;
+        }
+        p{
+            font-size: 18px;
+            font-weight: 500;
+            color: rgb(77, 77, 77);
+        }
+    }
+}

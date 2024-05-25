@@ -1,0 +1,38 @@
+.products {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    .header{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        position: relative;
+        align-items: center;
+        h2{
+            font-size: 3em;
+            letter-spacing: 1px;
+            font-weight: 600;
+            line-height: 0;
+        }
+        p{
+            font-size: 18px;
+            font-weight: 500;
+            color: rgb(77, 77, 77);
+        }
+    }
+    .cards{
+        align-items: center;
+        position: relative;
+        width: 70%;
+        height: auto;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        display: flex;
+        box-sizing: border-box;
+    }
+}

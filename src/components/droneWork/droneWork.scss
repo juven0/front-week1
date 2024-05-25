@@ -1,0 +1,31 @@
+.drone_work{
+    width: 22%;
+    height: 25em;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    .img{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+            height: 50%;
+        }
+    }
+    .about{
+        padding: 0;
+        h3{
+            margin: 0;
+            font-size: 2em;
+            font-weight: 600;
+        }
+        p{
+            font-size: 1.3em;
+            color: rgb(126, 126, 126);
+        }
+    }
+}
