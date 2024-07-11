@@ -1,6 +1,6 @@
 import './droneWork.scss'
 
-const DroneWork = (props):JSX.Element=>{
+const DroneWork = (props: any):JSX.Element=>{
 
     return(
         <div className="drone_work">    

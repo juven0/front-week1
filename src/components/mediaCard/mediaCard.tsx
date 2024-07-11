@@ -4,7 +4,7 @@ import './mediaCard.scss'
 import playImg from '../../assets/play_arrow_24dp_FILL1_wght600_GRAD200_opsz24 (1).svg'
 
 
-const MediaCard = (props):JSX.Element =>{
+const MediaCard = (props: any):JSX.Element =>{
     return(
         <motion.div
         initial={{ scale: 0 ,rotate: 180}}
