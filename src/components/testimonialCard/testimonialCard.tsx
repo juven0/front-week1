@@ -7,7 +7,7 @@ const TestimonialsCard = ():JSX.Element=>{
                 <img src={image} alt="" />
             </div>
             <div className="right">
-                <p>I recently bought te DJI Mini 2, I'm
+                <p>
                     amazed by its performance. This little drone is incredibly ligtweight and 
                     portable. making it perfect for traveling and outdoor adventures.
                 </p>
