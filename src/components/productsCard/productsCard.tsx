@@ -1,6 +1,6 @@
 import './productsCard.scss'
 
-const ProductsCard = (props):JSX.Element =>{
+const ProductsCard = (props: any):JSX.Element =>{
     return(
         <div className="products_card">
             <div className="image">
