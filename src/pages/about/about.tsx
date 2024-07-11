@@ -5,6 +5,7 @@ import MediaCard from '../../components/mediaCard/mediaCard'
 import girlWithDrone from '../../assets/0218232_header_900.png'
 import girlWithDrone2 from '../../assets/examen-theorique-telepilote.jpg'
 import TextCard from '../../components/textcard/textCard'
+import { motion } from 'framer-motion'
 
 const abouts: string[]= [
     `Generate thrust to lift the drone off theground and control its movement in different direction.`,
@@ -60,12 +61,14 @@ const About = ():JSX.Element=>{
                         </div>
                     </div>
                 </div>
-                <div className="often_right">
+                <motion.div 
+                 whileInView={"open"}
+                className="often_right">
                     <TextCard/>
                     <TextCard/>
                     <TextCard/>
                     <TextCard/>
-                </div>
+                </motion.div>
             </div>
         </div>
     )
